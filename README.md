@@ -87,4 +87,5 @@ using (var eventHookFactory = new EventHookFactory())
 ### Package
 ```
 dotnet pack EventHook/EventHook.csproj -o ../../LocalNuget/Packages -c Release
+dotnet pack EventHook/EventHook.csproj -o ../../LocalNuget/Packages -c Debug
 ```
